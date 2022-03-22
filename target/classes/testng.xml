@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FaceBookPageObjectModel">
+
+    <listeners>
+        <listener
+                class-name="com.ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+
+
+    <test name="FaceBookPageObjectModel">
+        <classes>
+            <class name="com.bridgelabz.facebook.page.LoginPageTest"></class>
+            <!-- <class name="com.bridgelabz.facebook.page.HomePageTest"></class> -->
+
+        </classes>
+    </test>
+</suite>
